@@ -1,5 +1,4 @@
 <a name="readme-top"></a>
-# Portfolio-Desktop
 
 
 <!--
@@ -63,7 +62,7 @@ After you're finished please remove all the comments and instructions!
 # 📖 [My-Porfolio] <a name="about-project"></a>
 
 
-**[My-portfolio]** is my portfolio project where i create the mobile version of the project following a Figma design template
+**[My-portfolio]** is my portfolio project where i create the mobile version of the project following a Figma design template.No complex coding in this project.I will be using tools in all projects and most likely in future job as well, so it is important to know them!
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -71,13 +70,25 @@ After you're finished please remove all the comments and instructions!
 
 
 <details>
-  <summary>Client</summary>
+  <summary>HTML</summary>
   <ul>
-    <li>HTML</li>
-    <li>CSS</li>
+    <li><a href="https://reactjs.org/">React.js</a></li>
   </ul>
 </details>
 
+<details>
+  <summary>CSS</summary>
+  <ul>
+    <li><a href="https://expressjs.com/">Express.js</a></li>
+  </ul>
+</details>
+
+<details>
+<summary>Git&Github</summary>
+  <ul>
+    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+  </ul>
+</details>
 <!-- Features -->
 
 
@@ -102,7 +113,7 @@ After you're finished please remove all the comments and instructions!
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
-Not Available
+Coming Soon
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -125,7 +136,7 @@ Clone this repository to your desired folder:
 ```cd my-folder```
 
 
-```git clone git@github.com:Yakub-Ojo/My-Portfolio.git```
+```git clone git@github.com:tamoorsaeed22/Portfolio-Desktop.git```
 
 
 ### Install
@@ -133,6 +144,7 @@ Clone this repository to your desired folder:
 Install this project with:
 
 `cd my-project`
+
 
 `npm install`
 
@@ -183,7 +195,8 @@ You can deploy this project using:
 - [ ] **[Add More styling]**
 - [ ] **[HTML pop up]**
 - [ ] **[Add work and about section]**
-
+- [ ] **[Local Host]**
+- [ ] **[Web browser access]**
 
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
@@ -203,7 +216,7 @@ Feel free to check the [issues page](../../issues/).
 ## ⭐️ Show your support <a name="support"></a>
 
 
-If you like this project, kindly give it a star
+Most of us are pretty good at judging whether a project is relevant for us. We might not be the master of it but we might recognize that we’ve done something similar before and feel confident that we can pick it up and help.If you can’t find anything you think you are good at, consider looking at different projects that require less technical skill.If relevant for the project, you can also prepare some samples specific to the project to impress the client.The trick is to prepare some that are slightly different or watermarked, so they can’t use them in the project but close enough that they can see the potential If you like this project, kindly give it a star.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
