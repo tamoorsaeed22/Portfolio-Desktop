@@ -1,10 +1,12 @@
-# Portfolio-Desktop
 <a name="readme-top"></a>
+# Portfolio-Desktop
+
 
 <!--
 HOW TO USE:
+This is an example of how you may give instructions on setting up your project locally.
 
-
+Modify this file to match your project and remove sections that don't apply.
 
 REQUIRED SECTIONS:
 - Table of Contents
@@ -22,7 +24,13 @@ REQUIRED SECTIONS:
 OPTIONAL SECTIONS:
 - FAQ
 
-  <h3><b>Microverse README Template</b></h3>
+After you're finished please remove all the comments and instructions!
+-->
+
+<div align="center">
+  <!-- You are encouraged to replace this logo with your own! Otherwise you can also remove it. -->
+
+  <h3><b>My Portfolio README</b></h3>
 
 </div>
 
@@ -52,11 +60,10 @@ OPTIONAL SECTIONS:
 
 <!-- PROJECT DESCRIPTION -->
 
-# 📖 [Portfolio-Desktop-Project] <a name="about-project"></a>
+# 📖 [My-Porfolio] <a name="about-project"></a>
 
 
-
-**[Portfolio-Desktop-Project]** In this project, i Have set up a "Hello Microverse Project" repository. No complex coding in this project.I will be using tools in all Microverse projects and most likely in future job as well, so it is important to know them!
+**[My-portfolio]** is my portfolio project where i create the mobile version of the project following a Figma design template
 
 ## 🛠 Built With <a name="built-with"></a>
 
@@ -64,51 +71,44 @@ OPTIONAL SECTIONS:
 
 
 <details>
-  <summary>HTML</summary>
+  <summary>Client</summary>
   <ul>
-    <li><a href="https://reactjs.org/">React.js</a></li>
-  </ul>
-</details>
-
-<details>
-  <summary>CSS</summary>
-  <ul>
-    <li><a href="https://expressjs.com/">Express.js</a></li>
-  </ul>
-</details>
-
-<details>
-<summary>Git&Github</summary>
-  <ul>
-    <li><a href="https://www.postgresql.org/">PostgreSQL</a></li>
+    <li>HTML</li>
+    <li>CSS</li>
   </ul>
 </details>
 
 <!-- Features -->
 
+
 ### Key Features <a name="key-features"></a>
 
-- **[Enhancing CSS classes ]**
-- **[Use css minifier to get on css file ]**
-- **[buttons]**
-- **[Contact Form]**
-- **[Navigation Section]**
-- **[Portfolio Page]**
-- **[Headline Section]**
-- **[About page]**
+
+- **[Create the toolbar]**
+- **[Create the headline section]**
+- **[Import svg images and style accordingly]**
+- [Enhancing CSS classes ]
+- [Use css minifier to get on css file ]
+- [buttons]
+- [Contact Form]
+- [Navigation Section]
+- [Portfolio Page]
+- [Headline Section]
+- [About page]
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LIVE DEMO -->
 
 ## 🚀 Live Demo <a name="live-demo"></a>
+Not Available
 
-N/A
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- GETTING STARTED -->
 
 ## 💻 Getting Started <a name="getting-started"></a>
-
 
 To get a local copy up and running, follow these steps.
 
@@ -116,75 +116,48 @@ To get a local copy up and running, follow these steps.
 
 In order to run this project you need:
 
-<!--
-Example command:
-
-```sh
- gem install rails
-```
- -->
+`npm install`
 
 ### Setup
 
 Clone this repository to your desired folder:
 
-<!--
-Example commands:
+```cd my-folder```
 
-```sh
-  cd my-folder
-  git clone git@github.com:tamoorsaeed22/Contact--Form.git
-```
---->
+
+```git clone git@github.com:Yakub-Ojo/My-Portfolio.git```
+
 
 ### Install
 
 Install this project with:
 
-<!--
-Example command:
+`cd my-project`
 
-```sh
-  cd my-project
-  gem install
-```
---->
+`npm install`
+
 
 ### Usage
 
 To run the project, execute the following command:
 
-<!--
-Example command:
+`live server`
 
-```sh
-  rails server
-```
---->
+`npm start`
 
 ### Run tests
 
 To run tests, run the following command:
 
-<!--
-Example command:
+`npm install --save-dev hint@7.x`
 
-```sh
-  bin/rails test test/models/article_test.rb
-```
---->
+`npx stylelint "**/*.{css,scss}"`
 
 ### Deployment
 
 You can deploy this project using:
 
-<!--
-Example:
-
-```sh
-
-```
- -->
+`github pages`
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -193,17 +166,25 @@ Example:
 ## 👥 Authors <a name="authors"></a>
 
 
-👤 **Tamoor Saeed**
+👤 **Author1**
 
 - GitHub: [@githubhandle](https://github.com/tamoorsaeed22)
-- LinkedIn: [LinkedIn](https://www.linkedin.com/in/tamoor-saeed-58912a233/)
+- Twitter: [@twitterhandle](https://www.linkedin.com/in/tamoor-saeed-58912a233/)
+- LinkedIn: [LinkedIn](https://linkedin.com/in/linkedinhandle)
+
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- FUTURE FEATURES -->
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[Local Host]**
-- [ ] **[Web browser access]**
+
+- [ ] **[Add More styling]**
+- [ ] **[HTML pop up]**
+- [ ] **[Add work and about section]**
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -221,7 +202,8 @@ Feel free to check the [issues page](../../issues/).
 
 ## ⭐️ Show your support <a name="support"></a>
 
-Most of us are pretty good at judging whether a project is relevant for us. We might not be the master of it but we might recognize that we’ve done something similar before and feel confident that we can pick it up and help.If you can’t find anything you think you are good at, consider looking at different projects that require less technical skill.If relevant for the project, you can also prepare some samples specific to the project to impress the client.The trick is to prepare some that are slightly different or watermarked, so they can’t use them in the project but close enough that they can see the potential.
+
+If you like this project, kindly give it a star
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -229,32 +211,15 @@ Most of us are pretty good at judging whether a project is relevant for us. We m
 
 ## 🙏 Acknowledgments <a name="acknowledgements"></a>
 
-I would like to thank to my coding partners who helped me in this project and making it possible for me to built this project.
 
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- FAQ (optional) -->
-
-## ❓ FAQ (OPTIONAL) <a name="faq"></a>
-
-- **[Question 1]**
-Tell us a bit about the latest project you worked on. Was it completed successfully?]**
-
-  - [Yes this project is complted no linters error found and all the checks have passed by GITHUB.Software projects almost always face roadblocks and complications, and being able to identify obstacles, solve issues quickly and efficiently, and get the job done properly and within deadline is a key attribute for a software engineer/developer. ]
-
-- **[Question 2]**[Talk about a time when you had to make a critical decision during production. What happened? How did you manage it?]
-
-  - [Answer_2][Critical thinkers often also have an explorative mindset which can lead to innovation and the improvement of production systems and processes.]
+I would like to thank my colleague and Microverse for the opportunity
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
 
 <!-- LICENSE -->
 
 ## 📝 License <a name="license"></a>
 
 This project is [MIT](./LICENSE) licensed.
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
