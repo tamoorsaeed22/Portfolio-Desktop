@@ -187,7 +187,7 @@ cardsData.forEach((card) => {
   workSection.appendChild(parent);
 
   // handel click event
-  button.addEventListener('click', function () {
+  button.addEventListener('click', () => {
     modal.scroll({
       top: 0,
       left: 0,
@@ -214,7 +214,7 @@ cardsData.forEach((card) => {
   });
 });
 
-overlay.addEventListener('click', function (e) {
+overlay.addEventListener('click', (e) => {
   if (e.target.classList.contains('overlay')) {
     overlay.classList.remove('active-modal');
     html.classList.remove('modal-noscroll');
@@ -222,7 +222,7 @@ overlay.addEventListener('click', function (e) {
   }
 });
 
-closeImg.addEventListener('click', function (e) {
+closeImg.addEventListener('click', (e) => {
   overlay.classList.remove('active-modal');
   html.classList.remove('modal-noscroll');
   document.location.reload();
