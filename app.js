@@ -9,7 +9,7 @@ const holding = document.querySelector('.holding');
 const headline = document.querySelector('.headline');
 const modalTitle = document.querySelector('.headline h3');
 const closeImg = document.querySelector('.headline img');
-const modalTags = document.querySelector('.tags-holder');
+const modalTags = document.querySelector('.holding .tags-holder');
 const modalImgHolder = document.querySelector('.modal-img');
 const modalImg = document.querySelector('.modal-img img');
 const modalInfo = document.querySelector('.modal-info');
@@ -80,7 +80,7 @@ const cardsData = [
   {
     className: ['tonic', 'order3'],
     imgSrcMob: 'images/woman.png',
-    imgSrcDesk: 'images/order4.png',
+    imgSrcDesk: 'images/order1.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -100,7 +100,7 @@ const cardsData = [
   {
     className: ['tonic', 'order4'],
     imgSrcMob: 'images/tonic4.png',
-    imgSrcDesk: 'images/order4.png',
+    imgSrcDesk: 'images/order2.png.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -187,7 +187,7 @@ cardsData.forEach((card) => {
   workSection.appendChild(parent);
 
   // handel click event
-  button.addEventListener('click', () => {
+  button.addEventListener('click', function () {
     modal.scroll({
       top: 0,
       left: 0,
@@ -214,7 +214,7 @@ cardsData.forEach((card) => {
   });
 });
 
-overlay.addEventListener('click', (e) => {
+overlay.addEventListener('click', function (e) {
   if (e.target.classList.contains('overlay')) {
     overlay.classList.remove('active-modal');
     html.classList.remove('modal-noscroll');
@@ -222,7 +222,7 @@ overlay.addEventListener('click', (e) => {
   }
 });
 
-closeImg.addEventListener('click', (e) => {
+closeImg.addEventListener('click', function (e) {
   overlay.classList.remove('active-modal');
   html.classList.remove('modal-noscroll');
   document.location.reload();
