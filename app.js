@@ -16,7 +16,9 @@ const modalInfo = document.querySelector('.modal-info');
 const modalDesc = modalInfo.querySelector('p');
 const modalSkills = document.querySelector('.modal-skills');
 const children = modalSkills.querySelectorAll('li');
-
+const submit = document.querySelector('form');
+const emailInput = document.getElementById('email');
+const resultMsg = document.querySelector('.msg');
 const handelNavClick = () => {
   nav.classList.toggle('toggle');
   html.classList.toggle('no-scroll');
@@ -100,7 +102,7 @@ const cardsData = [
   {
     className: ['tonic', 'order4'],
     imgSrcMob: 'images/tonic4.png',
-    imgSrcDesk: 'images/order2.png.png',
+    imgSrcDesk: 'images/order2.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -226,4 +228,15 @@ closeImg.addEventListener('click', (e) => {
   overlay.classList.remove('active-modal');
   html.classList.remove('modal-noscroll');
   document.location.reload();
+});
+
+// handel form validation
+submit.addEventListener('submit', (e) => {
+  if (emailInput.value !== emailInput.value.toLowerCase()) {
+    e.preventDefault();
+    resultMsg.textContent = 'Email must be in lower case';
+    resultMsg.style.color = 'red';
+    return false;
+  }
+  return true;
 });
