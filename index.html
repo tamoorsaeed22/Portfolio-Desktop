@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+  
   <head>
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -217,24 +218,26 @@
           </div>
           <form action="https://formspree.io/f/xwkjovpk" method="POST">
             <div class="input-holder">
-              <label for="name"> Write your Name </label>
+              <label for="name"> Write your name </label>
               <input
                 type="text"
                 placeholder="Write your name"
                 required
                 maxlength="30"
-                name="name"
+                name="inputName"
                 id="name"
+                class="koko"
               />
             </div>
             <div class="input-holder">
-              <label for="email"> Write your email </label>
+              <label for="email">Write your email</label>
               <input
                 id="email"
                 type="email"
                 placeholder="Write your email here"
                 required
                 name="email"
+                class="koko"
               />
             </div>
             <div class="input-holder">
@@ -246,6 +249,7 @@
                 required
                 name="message"
                 maxlength="500"
+                class="koko"
               ></textarea>
               <p class="msg"></p>
             </div>
@@ -256,6 +260,6 @@
       </section>
     </main>
     <script src="app.js"></script>
-    
   </body>
+  
 </html>
