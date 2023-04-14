@@ -17,8 +17,11 @@ const modalDesc = modalInfo.querySelector('p');
 const modalSkills = document.querySelector('.modal-skills');
 const children = modalSkills.querySelectorAll('li');
 const submit = document.querySelector('form');
-const emailInput = document.getElementById('email');
 const resultMsg = document.querySelector('.msg');
+const emailInput = document.getElementById('email');
+const nameInput = document.getElementById('name');
+const msgInput = document.getElementById('message');
+const inputs = document.querySelectorAll('.koko');
 const handelNavClick = () => {
   nav.classList.toggle('toggle');
   html.classList.toggle('no-scroll');
@@ -176,12 +179,10 @@ cardsData.forEach((card) => {
   // append children
   image.append(mobileImg, desktopImg);
   tagsHolder.append(canopy, dot, tag, dot2, tag2);
-
+  let contet = '';
   card.skills.forEach((skl) => {
-    const skill = document.createElement('li');
-    skill.classList.add('btn-skill');
-    skill.innerText = skl;
-    skills.append(skill);
+    contet += `<li class='btn-skill'>${skl}</li>`;
+    skills.innerHTML = contet;
   });
 
   group.append(title, tagsHolder, desc, skills, button);
@@ -207,12 +208,12 @@ cardsData.forEach((card) => {
     modalTitle.textContent = card.title;
     modalImg.src = card.imgSrcDesk;
     modalDesc.textContent = card.breif;
+    let skillContetnt = '';
     card.modalSkills.forEach((skl) => {
-      const skill = document.createElement('li');
-      skill.classList.add('btn-skill');
-      skill.innerText = skl;
-      modalSkills.append(skill);
+      skillContetnt += `<li class='btn-skill'>${skl}</li>`;
+      modalSkills.innerHTML = skillContetnt;
     });
+    skillContetnt = '';
   });
 });
 
@@ -220,14 +221,12 @@ overlay.addEventListener('click', (e) => {
   if (e.target.classList.contains('overlay')) {
     overlay.classList.remove('active-modal');
     html.classList.remove('modal-noscroll');
-    document.location.reload();
   }
 });
 
 closeImg.addEventListener('click', (e) => {
   overlay.classList.remove('active-modal');
   html.classList.remove('modal-noscroll');
-  document.location.reload();
 });
 
 // handel form validation
@@ -239,4 +238,33 @@ submit.addEventListener('submit', (e) => {
     return false;
   }
   return true;
+});
+
+const { inputName, email, message } = JSON.parse(
+  localStorage.getItem('formData'),
+);
+
+const formData = {
+  inputName,
+  email,
+  message,
+};
+
+// localstorage part
+
+inputs.forEach((inp) => {
+  inp.addEventListener('keyup', (e) => {
+    const { name, value } = e.target;
+    formData[name] = value;
+    localStorage.setItem('formData', JSON.stringify(formData));
+  });
+});
+
+document.addEventListener('DOMContentLoaded', () => {
+  const { inputName, email, message } = JSON.parse(
+    localStorage.getItem('formData'),
+  );
+  nameInput.value = inputName;
+  emailInput.value = email;
+  msgInput.value = message;
 });
