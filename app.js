@@ -39,8 +39,8 @@ links.forEach((lin) => {
 const cardsData = [
   {
     className: ['tonic', 'order1'],
-    imgSrcMob: 'images/tonic2.png',
-    imgSrcDesk: 'images/order3.png',
+    imgSrcMob: 'images/KanBan.png',
+    imgSrcDesk: 'images/KanBan.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -50,17 +50,17 @@ const cardsData = [
       'ruby',
       'Bootstrap',
     ]),
-    title: 'Tonic',
+    title: 'Collaborative KanBan board Project',
     canopy: 'CANOPY',
     koko: 'girl',
-    desc: 'A daily selection of privately personalized reads; no accounts or sign-ups required.',
+    desc: 'The collaborative Kanban board project is designed to foster teamwork and enhance communication within a group or organization. It allows team members to easily collaborate on tasks, share updates, and delegate responsibilities in real time. By providing a centralized platform where team members can contribute, discuss, and coordinate their work, the collaborative Kanban board promotes synergy, productivity, and effective project management.',
     breif:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'The Kanban board project, supervised by the Microverse platform, encompasses various aspects of web development. It focuses on testing the descriptiveness and clarity of the repository instructions, including pull request descriptions, the README file, and the HTML, CSS, and JavaScript code. Additionally, the project incorporates linters to ensure clean and error-free code. It covers key technologies such as Git, GitHub, Bootstrap, JavaScript, the Document Object Model (DOM), Webpack, and JEST. With a focus on TV shows and movies, this project merges both functionality and visual appeal to create an interactive and engaging user experience.',
   },
   {
     className: ['tonic', 'order2'],
-    imgSrcMob: 'images/tonic3.png',
-    imgSrcDesk: 'images/order4.png',
+    imgSrcMob: 'images/To-Do.png',
+    imgSrcDesk: 'images/To-Do.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -70,17 +70,17 @@ const cardsData = [
       'ruby',
       'Bootstrap',
     ]),
-    title: 'Multi-Post Stories',
+    title: 'To-Do list project',
     canopy: 'CANOPY',
     koko: 'woman',
-    desc: 'Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends.',
+    desc: 'A to-do list is a helpful tool for organizing tasks and managing your time effectively. By jotting down your tasks and prioritizing them, you can stay focused, avoid forgetting important responsibilities, and experience a sense of accomplishment as you tick off completed items.',
     breif:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'When creating a project, utilizing tools like WebHint, Stylelint, ESlint, Node Package Manager (NPM), ES6, and Webpack can enhance the development process. WebHint aids in identifying and resolving web accessibility, performance, and security issues. Stylelint ensures consistent and error-free CSS coding practices. ESlint helps catch JavaScript code errors and enforce coding standards. NPM facilitates package management and dependency tracking. ES6 introduces modern JavaScript features, improving code readability and efficiency. Webpack simplifies module bundling and asset management. By incorporating these tools into the project workflow, developers can enhance code quality, optimize performance, and streamline the development process.',
   },
   {
     className: ['tonic', 'order3'],
-    imgSrcMob: 'images/woman.png',
-    imgSrcDesk: 'images/order1.png',
+    imgSrcMob: 'images/Awsome Books.png',
+    imgSrcDesk: 'images/Awsome Books.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -91,16 +91,16 @@ const cardsData = [
       'Bootstrap',
     ]),
     koko: 'man',
-    title: 'Tonic',
+    title: 'Awsome-books Project',
     canopy: 'CANOPY',
-    desc: 'Exploring the future of media in Facebooks first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
+    desc: 'The "Awsome-books-ES6" project is a JavaScript application that focuses on demonstrating and exploring the features and capabilities of ES6. It provides a simple and intuitive interface for managing a collection of books, allowing users to add, remove, and update book details such as title, author, and ISBN.',
     breif:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'The "Awsome-books-ES6" project was meticulously crafted with the goal of showcasing the power and versatility of ES6 (ECMAScript 2015) in the realm of JavaScript development. The project began with a thoughtful analysis of the features and improvements introduced in ES6, including arrow functions, template literals, classes, and modules. With a clear understanding of these enhancements, the development team embarked on architecting an application that leverages these features to their fullest potential.Furthermore, modern JavaScript practices such as arrow functions and template literals were employed extensively throughout the codebase. Arrow functions offered concise and expressive syntax, improving code readability and reducing the verbosity of traditional function expressions. Template literals, on the other hand, provided a convenient way to create dynamic strings, enabling the seamless integration of variables and expressions within text.The "Awsome-books-ES6" project also made use of ES6 classes, allowing for object-oriented programming paradigms to be implemented with elegance and clarity. Classes served as blueprints for creating book objects, with encapsulated properties and methods that simplified the manipulation and management of book data. This approach resulted in a more intuitive and structured codebase, making it easier to understand and maintain.',
   },
   {
     className: ['tonic', 'order4'],
-    imgSrcMob: 'images/tonic4.png',
-    imgSrcDesk: 'images/order2.png.png',
+    imgSrcMob: 'images/mobile.png',
+    imgSrcDesk: 'images/desktop.png',
     skills: ['html', 'css', 'javaScript'],
     modalSkills: new Set([
       'html',
@@ -110,12 +110,12 @@ const cardsData = [
       'ruby',
       'Bootstrap',
     ]),
-    title: 'Multi-Post Stories',
+    title: 'Creative commons global summit project',
     canopy: 'CANOPY',
     koko: 'boy',
-    desc: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
+    desc: 'The Creative Commons Global Summit is an annual gathering that brings together a diverse community of creators, activists, and advocates of open content and open licensing. It serves as a platform for sharing knowledge, discussing emerging trends, and fostering collaborations that aim to promote the principles of open access and creative commons licensing worldwide..',
     breif:
-      'Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the releorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum han printer took a galley of type and scrambled it 1960s with the releawn printer took a galley of type and scrambled it 1960s with the releaLorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industrys standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it 1960s with the relea',
+      'I demonstrated proficiency in creating web pages by utilizing semantic HTML tags and adhering to best practices in HTML code. Furthermore, I employed CSS selectors correctly and implemented the CSS box model effectively. To structure and position elements on the page, I utilized Flexbox, ensuring a responsive design that adapts to various screen sizes through the use of media queries.In addition to this, I leveraged GitHub Pages for deploying web pages, showcasing my ability to make projects accessible and easily shareable. When it came to JavaScript, I followed best practices and language style guides, ensuring clean and maintainable code. I utilized JavaScript to manipulate DOM elements and handle events, allowing for dynamic interactions on the webpage.To store and access data, I effectively utilized objects, enabling efficient data management. Lastly, I effectively communicated technical concepts to other technical individuals, demonstrating my ability to convey complex ideas and information to fellow professionals in a clear and concise manner.By combining these skills and practices, I was able to create a cohesive and well-rounded web development project.',
   },
 ];
 
