@@ -155,7 +155,18 @@
               </a>
             </li>
           </ul>
-          <button class="view-project resume">Get my resume</button>
+          <button id="resume-button" class="view-project resume">Get my resume</button>
+          <script>
+            function openResumePopup() {
+              // Create a popup or modal to display the resume
+              // You can use libraries like Bootstrap or write your own custom code here
+              // Retrieve the resume file URL and display it in the popup
+              var resumeURL = "https://drive.google.com/file/d/1AvGFWhYWJgf94x7BzDiFiSdRsrsDQwhj/view?usp=sharing";
+              window.open(resumeURL, "_blank");
+            }
+            var resumeButton = document.getElementById("resume-button");
+            resumeButton.addEventListener("click", openResumePopup);
+            </script>
         </div>
         <section class="main-skills">
           <div class="languages">
