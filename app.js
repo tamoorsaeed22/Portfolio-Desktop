@@ -44,6 +44,26 @@ links.forEach((lin) => {
 const cardsData = [
   {
     className: ['tonic', 'order1'],
+    imgSrcMob: 'images/Screenshot (58).png',
+    imgSrcDesk: 'images/budget_app_screenshot.png',
+    skills: ['Ruby', 'Rails', 'PostgreSQL'],
+    modalSkills: new Set([
+      'ruby ',
+      'css',
+      'javascript',
+      'github',
+      'ruby',
+      'Bootstrap',
+    ]),
+    title: 'Budget-App',
+    canopy: 'CANOPY',
+    koko: 'girl',
+    desc: 'Budget-app is a mobile web application designed for efficient budget management. Users can register, log in, add transactions to categories, and monitor their expenses. With secure authentication, PostgreSQL database, and comprehensive testing, this app ensures seamless and secure budget tracking.',
+    breif:
+          'The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
+  },
+  {
+    className: ['tonic', 'order1'],
     imgSrcMob: 'images/KanBan.png',
     imgSrcDesk: 'images/KanBan.png',
     skills: ['html', 'css', 'javaScript'],
