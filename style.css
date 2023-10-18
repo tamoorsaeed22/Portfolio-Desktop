@@ -34,12 +34,6 @@ button {
   cursor: pointer;
 }
 
-.logo:hover {
-  transform: rotate(360deg);
-  transition: all 0.5s ease;
-  transform-origin: top;
-}
-
 .input-holder {
   display: flex;
   gap: 8px;
@@ -49,6 +43,68 @@ button {
 .input-holder label {
   color: rgba(255, 255, 255, 0.845);
 }
+
+/* Style the logo container */
+.logo-container {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* Adjust the gap between the image and text */
+}
+
+/* Style the logo text */
+.logolink {
+  font-size: 25px; /* Adjust the font size of the text */
+  font-weight: bold; /* Add font weight if needed */
+  color: #6070ff; /* Adjust the color of the text */
+  text-decoration: none; /* Remove underline from the link */
+  transform: scale(1.1) rotate(360deg); /* Rotate 360 degrees on hover */
+  transition: transform 0.5s ease; /* Add a transition for smooth animation */
+}
+
+/* Style the framework and skills sections */
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+/* Style the section header */
+h4 {
+  background-color: #f0f0f0;
+  margin: 0;
+  padding: 10px;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+/* Style the arrow icon */
+.arrow {
+  display: block;
+  margin: 0 auto;
+  width: 16px;
+  height: 16px;
+  transform: rotate(90deg);
+  transition: transform 0.3s;
+}
+
+ul ul li {
+  padding: 10px;
+  background-color: #fff;
+  border-bottom: 1px solid #ccc;
+}
+
+/* Add a smooth transition for showing/hiding the lists */
+li .skills-list {
+  display: none;
+  transition: display 0.3s ease;
+}
+
+/* Show the skills list when hovering over the skills set */
+.some-skill:hover .skills-list {
+  display: block;
+}
+
 
 .overlay {
   position: fixed;
@@ -170,12 +226,10 @@ button {
   border-radius: 8px;
   font-size: 12px;
   line-height: 24px;
-  font-weight: 500;
   display: flex;
   justify-content: center;
   align-items: center;
   transition: all 0.3s;
-  width: 100%;
   gap: 3px;
 }
 
