@@ -61,8 +61,8 @@ const cardsData = [
     desc: 'Budget-app is a mobile web application designed for efficient budget management. Users can register, log in, add transactions to categories, and monitor their expenses. With secure authentication, PostgreSQL database, and comprehensive testing, this app ensures seamless and secure budget tracking.',
     breif:
           'The Ruby on Rails capstone project is about building a mobile web application where you can manage your budget: you have a list of transactions associated with a category, so that you can see how much money you spent and on what.',
-          liveLink: 'https://budget-app-tamoor.onrender.com/',
-          sourceLink: 'https://github.com/tamoorsaeed22/Budget-app',
+    liveLink: 'https://budget-app-tamoor.onrender.com/',
+    sourceLink: 'https://github.com/tamoorsaeed22/Budget-app',
   },
   {
     className: ['tonic', 'order1'],
@@ -82,8 +82,8 @@ const cardsData = [
     desc: 'The collaborative Kanban board project is designed to foster teamwork and enhance communication within a group or organization. It allows team members to easily collaborate on tasks, share updates, and delegate responsibilities in real time. By providing a centralized platform where team members can contribute, discuss, and coordinate their work, the collaborative Kanban board promotes synergy, productivity, and effective project management.',
     breif:
       'The project we built for the Final Project is based on an app to book an appointment to test ride a Harley-Davidson motorcycle.',
-      liveLink: 'https://harley-davidson-73po.onrender.com/',
-      sourceLink: 'https://github.com/tamoorsaeed22/Final-Capstone-Front-End',
+    liveLink: 'https://harley-davidson-73po.onrender.com/',
+    sourceLink: 'https://github.com/tamoorsaeed22/Final-Capstone-Front-End',
   },
   {
     className: ['tonic', 'order2'],
@@ -104,8 +104,8 @@ const cardsData = [
     desc: 'A to-do list is a helpful tool for organizing tasks and managing your time effectively. By jotting down your tasks and prioritizing them, you can stay focused, avoid forgetting important responsibilities, and experience a sense of accomplishment as you tick off completed items.',
     breif:
       'When creating a project, utilizing tools like WebHint, Stylelint, ESlint, Node Package Manager (NPM), ES6, and Webpack can enhance the development process. WebHint aids in identifying and resolving web accessibility, performance, and security issues. Stylelint ensures consistent and error-free CSS coding practices. ESlint helps catch JavaScript code errors and enforce coding standards. NPM facilitates package management and dependency tracking. ES6 introduces modern JavaScript features, improving code readability and efficiency. Webpack simplifies module bundling and asset management. By incorporating these tools into the project workflow, developers can enhance code quality, optimize performance, and streamline the development process.',
-      liveLink: 'https://tamoorsaeed22.github.io/to-do-list/dist/',
-      sourceLink: 'https://github.com/tamoorsaeed22/to-do-list',
+    liveLink: 'https://tamoorsaeed22.github.io/to-do-list/dist/',
+    sourceLink: 'https://github.com/tamoorsaeed22/to-do-list',
   },
   {
     className: ['tonic', 'order3'],
@@ -125,8 +125,8 @@ const cardsData = [
     desc: 'The "Awsome-books-ES6" project is a JavaScript application that focuses on demonstrating and exploring the features and capabilities of ES6. It provides a simple and intuitive interface for managing a collection of books, allowing users to add, remove, and update book details such as title, author, and ISBN. ',
     breif:
       'The "Awsome-books-ES6" project was meticulously crafted with the goal of showcasing the power and versatility of ES6 (ECMAScript 2015) in the realm of JavaScript development. The project began with a thoughtful analysis of the features and improvements introduced in ES6, including arrow functions, template literals, classes, and modules. With a clear understanding of these enhancements, the development team embarked on architecting an application that leverages these features to their fullest potential.Furthermore, modern JavaScript practices such as arrow functions and template literals were employed extensively throughout the codebase. Arrow functions offered concise and expressive syntax, improving code readability and reducing the verbosity of traditional function expressions. Template literals, on the other hand, provided a convenient way to create dynamic strings, enabling the seamless integration of variables and expressions within text.The "Awsome-books-ES6" project also made use of ES6 classes, allowing for object-oriented programming paradigms to be implemented with elegance and clarity. Classes served as blueprints for creating book objects, with encapsulated properties and methods that simplified the manipulation and management of book data. This approach resulted in a more intuitive and structured codebase, making it easier to understand and maintain.',
-      liveLink: 'https://tamoorsaeed22.github.io/Awsome-books-ES6/',
-      sourceLink: 'https://github.com/tamoorsaeed22/Awsome-books-ES6',
+    liveLink: 'https://tamoorsaeed22.github.io/Awsome-books-ES6/',
+    sourceLink: 'https://github.com/tamoorsaeed22/Awsome-books-ES6',
   },
   {
     className: ['tonic', 'order4'],
@@ -268,6 +268,9 @@ cardsData.forEach((card) => {
     seeSourceButton.addEventListener('click', () => {
       window.open(card.sourceLink, '_blank');
     });
+
+    // Clear existing content in modalInfo
+    modalInfo.innerHTML = '';
 
     // Append the buttons to your modal
     modalInfo.appendChild(seeLiveButton);
